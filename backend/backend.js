@@ -11,7 +11,7 @@ ApiPromise
     console.log(`========last Block========`)
     console.log(`Hash:${header.hash.toHex()}`)
     console.log(`parentHash:${header.parentHash.toHex()}`)
-    console.log(`number:${header.number.toHuman()}`)
+    console.log(`number:${header.number.toNumber()}`)
     console.log(`stateRoot:${header.stateRoot.toHuman()}`)
     console.log(`extrinsicsRoot:${header.extrinsicsRoot.toHuman()}`)
   })
